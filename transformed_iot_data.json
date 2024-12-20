@@ -1,0 +1,1186 @@
+{
+  "locations": {
+    "office011": {
+      "location_name": "office011",
+      "devices": {
+        "POD2-00335": {
+          "device_id": "POD2-00335",
+          "properties": {
+            "temperature": {
+              "property": "temperature",
+              "value": 21.556521954743758,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "humidity": {
+              "property": "humidity",
+              "value": 36.72608649212381,
+              "unit": "PERCENT_RH",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1015.852175505265,
+              "unit": "HectoPA",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "carbon_dioxide": {
+              "property": "carbon_dioxide",
+              "value": 375.7391304347826,
+              "unit": "PPM",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1301": {
+          "device_id": "xdppivjzy2wixy6s-l1301",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.700000762939453,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office020": {
+      "location_name": "office020",
+      "devices": {
+        "POD2-00337": {
+          "device_id": "POD2-00337",
+          "properties": {
+            "temperature": {
+              "property": "temperature",
+              "value": 18.51304352801779,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "humidity": {
+              "property": "humidity",
+              "value": 42.96521775618844,
+              "unit": "PERCENT_RH",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1015.9556486710259,
+              "unit": "HectoPA",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "carbon_dioxide": {
+              "property": "carbon_dioxide",
+              "value": 1,
+              "unit": "PPM",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1214": {
+          "device_id": "xdppivjzy2wixy6s-l1214",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1300": {
+          "device_id": "xdppivjzy2wixy6s-l1300",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1213": {
+          "device_id": "xdppivjzy2wixy6s-l1213",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1215": {
+          "device_id": "xdppivjzy2wixy6s-l1215",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office123": {
+      "location_name": "office123",
+      "devices": {
+        "POD2-00340": {
+          "device_id": "POD2-00340",
+          "properties": {
+            "temperature": {
+              "property": "temperature",
+              "value": 17.200000762939453,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "humidity": {
+              "property": "humidity",
+              "value": 45.65217358133067,
+              "unit": "PERCENT_RH",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1015.4830508024796,
+              "unit": "HectoPA",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "carbon_dioxide": {
+              "property": "carbon_dioxide",
+              "value": 316.5652173913044,
+              "unit": "PPM",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1209": {
+          "device_id": "xdppivjzy2wixy6s-l1209",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.5,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office113": {
+      "location_name": "office113",
+      "devices": {
+        "POD2-00338": {
+          "device_id": "POD2-00338",
+          "properties": {
+            "temperature": {
+              "property": "temperature",
+              "value": 16.799999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "humidity": {
+              "property": "humidity",
+              "value": 47.26521715910538,
+              "unit": "PERCENT_RH",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1015.6765163255775,
+              "unit": "HectoPA",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "carbon_dioxide": {
+              "property": "carbon_dioxide",
+              "value": 414.2173913043478,
+              "unit": "PPM",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1112": {
+          "device_id": "xdppivjzy2wixy6s-l1112",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 18.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 17.399999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "": {
+      "location_name": "",
+      "devices": {
+        "POD2-00814": {
+          "device_id": "POD2-00814",
+          "properties": {
+            "temperature": {
+              "property": "temperature",
+              "value": 18.73636384443803,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "humidity": {
+              "property": "humidity",
+              "value": 37.654545523903586,
+              "unit": "PERCENT_RH",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1015.5300015536221,
+              "unit": "HectoPA",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "carbon_dioxide": {
+              "property": "carbon_dioxide",
+              "value": 392.54545454545456,
+              "unit": "PPM",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            }
+          }
+        },
+        "POD2-00815": {
+          "device_id": "POD2-00815",
+          "properties": {
+            "temperature": {
+              "property": "temperature",
+              "value": 19.545454718849875,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "humidity": {
+              "property": "humidity",
+              "value": 37.6363639831543,
+              "unit": "PERCENT_RH",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1015.608642578125,
+              "unit": "HectoPA",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            },
+            "carbon_dioxide": {
+              "property": "carbon_dioxide",
+              "value": 424.6363636363636,
+              "unit": "PPM",
+              "timestamp": "2024-12-20T08:35:00.000Z"
+            }
+          }
+        }
+      }
+    },
+    "office001": {
+      "location_name": "office001",
+      "devices": {
+        "6102001000202": {
+          "device_id": "6102001000202",
+          "properties": {
+            "humidity": {
+              "property": "humidity",
+              "value": 39,
+              "unit": "PERCENT_RH",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1019,
+              "unit": "HectoPA",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.8,
+              "unit": "DEG_C",
+              "timestamp": "1970-01-21T02:51:27"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1212": {
+          "device_id": "xdppivjzy2wixy6s-l1212",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.899999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1211": {
+          "device_id": "xdppivjzy2wixy6s-l1211",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.899999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office104": {
+      "location_name": "office104",
+      "devices": {
+        "6102001000165": {
+          "device_id": "6102001000165",
+          "properties": {
+            "humidity": {
+              "property": "humidity",
+              "value": 38,
+              "unit": "PERCENT_RH",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1018,
+              "unit": "HectoPA",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.5,
+              "unit": "DEG_C",
+              "timestamp": "1970-01-21T02:51:27"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1110": {
+          "device_id": "xdppivjzy2wixy6s-l1110",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.5,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office111": {
+      "location_name": "office111",
+      "devices": {
+        "6102001000219": {
+          "device_id": "6102001000219",
+          "properties": {
+            "humidity": {
+              "property": "humidity",
+              "value": 40,
+              "unit": "PERCENT_RH",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1020,
+              "unit": "HectoPA",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.8,
+              "unit": "DEG_C",
+              "timestamp": "1970-01-21T02:51:27"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1105": {
+          "device_id": "xdppivjzy2wixy6s-l1105",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 21.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.799999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office121": {
+      "location_name": "office121",
+      "devices": {
+        "6102001000103": {
+          "device_id": "6102001000103",
+          "properties": {
+            "humidity": {
+              "property": "humidity",
+              "value": 42,
+              "unit": "PERCENT_RH",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1017,
+              "unit": "HectoPA",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.5,
+              "unit": "DEG_C",
+              "timestamp": "1970-01-21T02:51:27"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1207": {
+          "device_id": "xdppivjzy2wixy6s-l1207",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.5,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office116": {
+      "location_name": "office116",
+      "devices": {
+        "6102001000042": {
+          "device_id": "6102001000042",
+          "properties": {
+            "humidity": {
+              "property": "humidity",
+              "value": 36,
+              "unit": "PERCENT_RH",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1018,
+              "unit": "HectoPA",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 23,
+              "unit": "DEG_C",
+              "timestamp": "1970-01-21T02:51:27"
+            }
+          }
+        },
+        "xdppivjzy2wixy6s-l1115": {
+          "device_id": "xdppivjzy2wixy6s-l1115",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 21.200000762939453,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "roof": {
+      "location_name": "roof",
+      "devices": {
+        "6082001000139": {
+          "device_id": "6082001000139",
+          "properties": {
+            "humidity": {
+              "property": "humidity",
+              "value": 85,
+              "unit": "PERCENT_RH",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "pressure": {
+              "property": "pressure",
+              "value": 1021,
+              "unit": "HectoPA",
+              "timestamp": "1970-01-21T02:51:27"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 3.5,
+              "unit": "DEG_C",
+              "timestamp": "1970-01-21T02:51:27"
+            }
+          }
+        }
+      }
+    },
+    "office015": {
+      "location_name": "office015",
+      "devices": {
+        "xdppivjzy2wixy6s-l1305": {
+          "device_id": "xdppivjzy2wixy6s-l1305",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office124": {
+      "location_name": "office124",
+      "devices": {
+        "xdppivjzy2wixy6s-l1210": {
+          "device_id": "xdppivjzy2wixy6s-l1210",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.799999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office120": {
+      "location_name": "office120",
+      "devices": {
+        "xdppivjzy2wixy6s-l1206": {
+          "device_id": "xdppivjzy2wixy6s-l1206",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 21.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.5,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office115": {
+      "location_name": "office115",
+      "devices": {
+        "xdppivjzy2wixy6s-l1114": {
+          "device_id": "xdppivjzy2wixy6s-l1114",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.299999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office108": {
+      "location_name": "office108",
+      "devices": {
+        "xdppivjzy2wixy6s-l1102": {
+          "device_id": "xdppivjzy2wixy6s-l1102",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 17.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.200000762939453,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office109": {
+      "location_name": "office109",
+      "devices": {
+        "xdppivjzy2wixy6s-l1103": {
+          "device_id": "xdppivjzy2wixy6s-l1103",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 17.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.799999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office105": {
+      "location_name": "office105",
+      "devices": {
+        "xdppivjzy2wixy6s-l1111": {
+          "device_id": "xdppivjzy2wixy6s-l1111",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office014": {
+      "location_name": "office014",
+      "devices": {
+        "xdppivjzy2wixy6s-l1304": {
+          "device_id": "xdppivjzy2wixy6s-l1304",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 25.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.399999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office103": {
+      "location_name": "office103",
+      "devices": {
+        "xdppivjzy2wixy6s-l1109": {
+          "device_id": "xdppivjzy2wixy6s-l1109",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 21.700000762939453,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office110": {
+      "location_name": "office110",
+      "devices": {
+        "xdppivjzy2wixy6s-l1106": {
+          "device_id": "xdppivjzy2wixy6s-l1106",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.200000762939453,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office122": {
+      "location_name": "office122",
+      "devices": {
+        "xdppivjzy2wixy6s-l1208": {
+          "device_id": "xdppivjzy2wixy6s-l1208",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 21.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.299999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office017": {
+      "location_name": "office017",
+      "devices": {
+        "xdppivjzy2wixy6s-l1307": {
+          "device_id": "xdppivjzy2wixy6s-l1307",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 24.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office118": {
+      "location_name": "office118",
+      "devices": {
+        "xdppivjzy2wixy6s-l1204": {
+          "device_id": "xdppivjzy2wixy6s-l1204",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.399999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office013": {
+      "location_name": "office013",
+      "devices": {
+        "xdppivjzy2wixy6s-l1303": {
+          "device_id": "xdppivjzy2wixy6s-l1303",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.5,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office012": {
+      "location_name": "office012",
+      "devices": {
+        "xdppivjzy2wixy6s-l1302": {
+          "device_id": "xdppivjzy2wixy6s-l1302",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 25.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:49"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 23.899999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office127": {
+      "location_name": "office127",
+      "devices": {
+        "xdppivjzy2wixy6s-l1202": {
+          "device_id": "xdppivjzy2wixy6s-l1202",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.5,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office119": {
+      "location_name": "office119",
+      "devices": {
+        "xdppivjzy2wixy6s-l1205": {
+          "device_id": "xdppivjzy2wixy6s-l1205",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.299999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office107": {
+      "location_name": "office107",
+      "devices": {
+        "xdppivjzy2wixy6s-l1101": {
+          "device_id": "xdppivjzy2wixy6s-l1101",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 23.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 22.200000762939453,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office101": {
+      "location_name": "office101",
+      "devices": {
+        "xdppivjzy2wixy6s-l1107": {
+          "device_id": "xdppivjzy2wixy6s-l1107",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office106": {
+      "location_name": "office106",
+      "devices": {
+        "xdppivjzy2wixy6s-l1100": {
+          "device_id": "xdppivjzy2wixy6s-l1100",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 18.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.399999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office126": {
+      "location_name": "office126",
+      "devices": {
+        "xdppivjzy2wixy6s-l1201": {
+          "device_id": "xdppivjzy2wixy6s-l1201",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 18.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 17.5,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office102": {
+      "location_name": "office102",
+      "devices": {
+        "xdppivjzy2wixy6s-l1108": {
+          "device_id": "xdppivjzy2wixy6s-l1108",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 17.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.100000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office112": {
+      "location_name": "office112",
+      "devices": {
+        "xdppivjzy2wixy6s-l1104": {
+          "device_id": "xdppivjzy2wixy6s-l1104",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 20.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 19.799999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office114": {
+      "location_name": "office114",
+      "devices": {
+        "xdppivjzy2wixy6s-l1113": {
+          "device_id": "xdppivjzy2wixy6s-l1113",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 19.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office016": {
+      "location_name": "office016",
+      "devices": {
+        "xdppivjzy2wixy6s-l1306": {
+          "device_id": "xdppivjzy2wixy6s-l1306",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 21.600000381469727,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office125": {
+      "location_name": "office125",
+      "devices": {
+        "xdppivjzy2wixy6s-l1200": {
+          "device_id": "xdppivjzy2wixy6s-l1200",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 18.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 18.299999237060547,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    },
+    "office117": {
+      "location_name": "office117",
+      "devices": {
+        "xdppivjzy2wixy6s-l1203": {
+          "device_id": "xdppivjzy2wixy6s-l1203",
+          "properties": {
+            "setpoint_temperature": {
+              "property": "setpoint_temperature",
+              "value": 22.0,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            },
+            "temperature": {
+              "property": "temperature",
+              "value": 20.899999618530273,
+              "unit": "DEG_C",
+              "timestamp": "2024-12-20T10:28:48"
+            }
+          }
+        }
+      }
+    }
+  }
+}
