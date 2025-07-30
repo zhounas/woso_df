@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/iot/> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix woso: <https://purl.org/woso#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+SELECT ?model ?fileLocation ?simulationInput ?value
+WHERE {
+    ?model rdf:type woso:SimulationModel;
+           woso:filePath ?fileLocation.
+    ?simulation woso:isExecutionOf ?model;
+                saref:hasInput ?simulationInput.
+    ?simulationInput woso:hasVariableValue ?variableValue;
+    ?variableValue woso:hasValue ?value;
+}

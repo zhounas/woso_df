@@ -1,0 +1,36 @@
+{
+  "zone107": {
+    "consistsOf": {
+      "office110": {
+        "devices": {
+          "xdppivjzy2wixy6s-l1106": {
+            "type": "device",
+            "source": "wattsense"
+          }
+        }
+      },
+      "office111": {
+        "devices": {
+          "xdppivjzy2wixy6s-l1105": {
+            "type": "device",
+            "source": "wattsense"
+          },
+          "6102001000219": {
+            "type": "device",
+            "source": "etherasoft"
+          }
+        }
+      }
+    },
+    "simulationInputs": {
+      "t_sp_0013": {
+        "type": "simulationVariable",
+        "property": "setpoint_temperature"
+      },
+      "t_init_0013": {
+        "type": "simulationVariable",
+        "property": "temperature"
+      }
+    }
+  }
+}

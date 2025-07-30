@@ -1,0 +1,3013 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/iot/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix woso: <https://purl.org/woso/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:EDF_building_thermal_modelSimulation a woso:SimulationExecution ;
+    woso:hasOutput ex:P_heat_0001,
+        ex:P_heat_0002,
+        ex:P_heat_0003,
+        ex:P_heat_0004,
+        ex:P_heat_0005,
+        ex:P_heat_0006,
+        ex:P_heat_0007,
+        ex:P_heat_0008,
+        ex:P_heat_0009,
+        ex:P_heat_0010,
+        ex:P_heat_0011,
+        ex:P_heat_0012,
+        ex:P_heat_0013,
+        ex:P_heat_0014,
+        ex:P_heat_0015,
+        ex:P_heat_0016,
+        ex:P_heat_0017,
+        ex:P_heat_0018,
+        ex:P_heat_0019,
+        ex:P_heat_0020,
+        ex:T_air_0001,
+        ex:T_air_0002,
+        ex:T_air_0003,
+        ex:T_air_0004,
+        ex:T_air_0005,
+        ex:T_air_0006,
+        ex:T_air_0007,
+        ex:T_air_0008,
+        ex:T_air_0009,
+        ex:T_air_0010,
+        ex:T_air_0011,
+        ex:T_air_0012,
+        ex:T_air_0013,
+        ex:T_air_0014,
+        ex:T_air_0015,
+        ex:T_air_0016,
+        ex:T_air_0017,
+        ex:T_air_0018,
+        ex:T_air_0019,
+        ex:T_air_0020 ;
+    woso:isExecutionOf ex:EDF_building_thermal_model ;
+    saref:hasInput ex:t_init_0001,
+        ex:t_init_0002,
+        ex:t_init_0003,
+        ex:t_init_0004,
+        ex:t_init_0005,
+        ex:t_init_0006,
+        ex:t_init_0007,
+        ex:t_init_0008,
+        ex:t_init_0009,
+        ex:t_init_0010,
+        ex:t_init_0011,
+        ex:t_init_0012,
+        ex:t_init_0013,
+        ex:t_init_0014,
+        ex:t_init_0015,
+        ex:t_init_0016,
+        ex:t_init_0017,
+        ex:t_init_0018,
+        ex:t_init_0019,
+        ex:t_init_0020,
+        ex:t_sp_0001,
+        ex:t_sp_0002,
+        ex:t_sp_0003,
+        ex:t_sp_0004,
+        ex:t_sp_0005,
+        ex:t_sp_0006,
+        ex:t_sp_0007,
+        ex:t_sp_0008,
+        ex:t_sp_0009,
+        ex:t_sp_0010,
+        ex:t_sp_0011,
+        ex:t_sp_0012,
+        ex:t_sp_0013,
+        ex:t_sp_0014,
+        ex:t_sp_0015,
+        ex:t_sp_0017,
+        ex:t_sp_0018,
+        ex:t_sp_0019,
+        ex:t_sp_0020 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0001Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0001 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0001Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 2.964568e+02 ;
+    woso:isValueOfVariable ex:P_heat_0001 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0002Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0002 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0002Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.244541e+02 ;
+    woso:isValueOfVariable ex:P_heat_0002 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0003Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0003 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0003Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 2.254705e+02 ;
+    woso:isValueOfVariable ex:P_heat_0003 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0004Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0004 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0004Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.580845e+02 ;
+    woso:isValueOfVariable ex:P_heat_0004 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0005Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0005 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0005Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.340861e+02 ;
+    woso:isValueOfVariable ex:P_heat_0005 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0006Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0006 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0006Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 2.861858e+02 ;
+    woso:isValueOfVariable ex:P_heat_0006 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0007Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0007 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0007Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 4.21757e+02 ;
+    woso:isValueOfVariable ex:P_heat_0007 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0008Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0008 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0008Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 5.034704e+02 ;
+    woso:isValueOfVariable ex:P_heat_0008 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0009Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0009 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0009Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.860268e+02 ;
+    woso:isValueOfVariable ex:P_heat_0009 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0010Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0010 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0010Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 4.313668e+02 ;
+    woso:isValueOfVariable ex:P_heat_0010 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0011Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0011 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0011Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 5.874646e+02 ;
+    woso:isValueOfVariable ex:P_heat_0011 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0012Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0012 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0012Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.467175e+02 ;
+    woso:isValueOfVariable ex:P_heat_0012 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0013Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0013 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0013Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.980354e+02 ;
+    woso:isValueOfVariable ex:P_heat_0013 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0014Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0014 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0014Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.633178e+02 ;
+    woso:isValueOfVariable ex:P_heat_0014 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0015Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0015 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0015Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.788016e+02 ;
+    woso:isValueOfVariable ex:P_heat_0015 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0016Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0016 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0016Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 5.684009e+02 ;
+    woso:isValueOfVariable ex:P_heat_0016 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0017Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0017 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0017Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 6.286547e+02 ;
+    woso:isValueOfVariable ex:P_heat_0017 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0018Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0018 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0018Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 6.183526e+02 ;
+    woso:isValueOfVariable ex:P_heat_0018 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0019Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0019 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0019Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 4.014768e+02 ;
+    woso:isValueOfVariable ex:P_heat_0019 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0020Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0020 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0020Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.983653e+02 ;
+    woso:isValueOfVariable ex:P_heat_0020 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0001Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0001 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0001Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.972089e+01 ;
+    woso:isValueOfVariable ex:T_air_0001 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0002Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0002 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0002Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.970286e+01 ;
+    woso:isValueOfVariable ex:T_air_0002 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0003Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0003 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0003Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.979072e+01 ;
+    woso:isValueOfVariable ex:T_air_0003 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0004Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0004 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0004Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.966499e+01 ;
+    woso:isValueOfVariable ex:T_air_0004 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0005Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0005 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0005Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.968889e+01 ;
+    woso:isValueOfVariable ex:T_air_0005 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0006Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0006 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0006Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.973279e+01 ;
+    woso:isValueOfVariable ex:T_air_0006 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0007Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0007 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0007Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.961286e+01 ;
+    woso:isValueOfVariable ex:T_air_0007 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0008Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0008 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0008Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.953408e+01 ;
+    woso:isValueOfVariable ex:T_air_0008 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0009Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0009 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0009Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.964321e+01 ;
+    woso:isValueOfVariable ex:T_air_0009 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0010Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0010 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0010Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.959969e+01 ;
+    woso:isValueOfVariable ex:T_air_0010 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0011Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0011 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0011Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.945349e+01 ;
+    woso:isValueOfVariable ex:T_air_0011 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0012Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0012 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0012Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.967686e+01 ;
+    woso:isValueOfVariable ex:T_air_0012 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0013Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0013 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0013Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.963053e+01 ;
+    woso:isValueOfVariable ex:T_air_0013 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0014Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0014 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0014Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.966359e+01 ;
+    woso:isValueOfVariable ex:T_air_0014 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0015Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0015 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0015Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.965017e+01 ;
+    woso:isValueOfVariable ex:T_air_0015 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0016Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0016 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0016Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.946818e+01 ;
+    woso:isValueOfVariable ex:T_air_0016 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0017Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0017 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0017Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.941531e+01 ;
+    woso:isValueOfVariable ex:T_air_0017 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0018Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0018 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0018Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.942169e+01 ;
+    woso:isValueOfVariable ex:T_air_0018 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0019Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0019 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0019Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.962756e+01 ;
+    woso:isValueOfVariable ex:T_air_0019 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0020Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0020 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0020Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.96285e+01 ;
+    woso:isValueOfVariable ex:T_air_0020 .
+
+ex:carbon_dioxide_observation a saref:Observation ;
+    saref:hasResult ex:POD2-00335Carbon_dioxideValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00335 ;
+    saref:observes <http://example.org/iot/office011#carbon_dioxide> .
+
+ex:carbon_dioxide_observation_1 a saref:Observation ;
+    saref:hasResult ex:POD2-00337Carbon_dioxideValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00337 ;
+    saref:observes <http://example.org/iot/office020#carbon_dioxide> .
+
+ex:carbon_dioxide_observation_2 a saref:Observation ;
+    saref:hasResult ex:POD2-00340Carbon_dioxideValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00340 ;
+    saref:observes <http://example.org/iot/office123#carbon_dioxide> .
+
+ex:carbon_dioxide_observation_3 a saref:Observation ;
+    saref:hasResult ex:POD2-00338Carbon_dioxideValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00338 ;
+    saref:observes <http://example.org/iot/office113#carbon_dioxide> .
+
+ex:carbon_dioxide_observation_4 a saref:Observation ;
+    saref:hasResult ex:POD2-00814Carbon_dioxideValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00814 ;
+    saref:observes <http://example.org/iot/#carbon_dioxide> .
+
+ex:carbon_dioxide_observation_5 a saref:Observation ;
+    saref:hasResult ex:POD2-00815Carbon_dioxideValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00815 ;
+    saref:observes <http://example.org/iot/#carbon_dioxide> .
+
+ex:heatingPower a saref:property .
+
+ex:humidity_observation a saref:Observation ;
+    saref:hasResult ex:POD2-00335HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00335 ;
+    saref:observes <http://example.org/iot/office011#humidity> .
+
+ex:humidity_observation_1 a saref:Observation ;
+    saref:hasResult ex:POD2-00337HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00337 ;
+    saref:observes <http://example.org/iot/office020#humidity> .
+
+ex:humidity_observation_10 a saref:Observation ;
+    saref:hasResult ex:6102001000042HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:03:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000042 ;
+    saref:observes <http://example.org/iot/office116#humidity> .
+
+ex:humidity_observation_11 a saref:Observation ;
+    saref:hasResult ex:6082001000139HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6082001000139 ;
+    saref:observes <http://example.org/iot/roof#humidity> .
+
+ex:humidity_observation_2 a saref:Observation ;
+    saref:hasResult ex:POD2-00340HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00340 ;
+    saref:observes <http://example.org/iot/office123#humidity> .
+
+ex:humidity_observation_3 a saref:Observation ;
+    saref:hasResult ex:POD2-00338HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00338 ;
+    saref:observes <http://example.org/iot/office113#humidity> .
+
+ex:humidity_observation_4 a saref:Observation ;
+    saref:hasResult ex:POD2-00814HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00814 ;
+    saref:observes <http://example.org/iot/#humidity> .
+
+ex:humidity_observation_5 a saref:Observation ;
+    saref:hasResult ex:POD2-00815HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00815 ;
+    saref:observes <http://example.org/iot/#humidity> .
+
+ex:humidity_observation_6 a saref:Observation ;
+    saref:hasResult ex:6102001000202HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000202 ;
+    saref:observes <http://example.org/iot/office001#humidity> .
+
+ex:humidity_observation_7 a saref:Observation ;
+    saref:hasResult ex:6102001000165HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:03:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000165 ;
+    saref:observes <http://example.org/iot/office104#humidity> .
+
+ex:humidity_observation_8 a saref:Observation ;
+    saref:hasResult ex:6102001000219HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000219 ;
+    saref:observes <http://example.org/iot/office111#humidity> .
+
+ex:humidity_observation_9 a saref:Observation ;
+    saref:hasResult ex:6102001000103HumidityValue ;
+    saref:hasTimestamp "2024-12-19T07:54:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000103 ;
+    saref:observes <http://example.org/iot/office121#humidity> .
+
+ex:pressure_observation a saref:Observation ;
+    saref:hasResult ex:POD2-00335PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00335 ;
+    saref:observes <http://example.org/iot/office011#pressure> .
+
+ex:pressure_observation_1 a saref:Observation ;
+    saref:hasResult ex:POD2-00337PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00337 ;
+    saref:observes <http://example.org/iot/office020#pressure> .
+
+ex:pressure_observation_10 a saref:Observation ;
+    saref:hasResult ex:6102001000042PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:03:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000042 ;
+    saref:observes <http://example.org/iot/office116#pressure> .
+
+ex:pressure_observation_11 a saref:Observation ;
+    saref:hasResult ex:6082001000139PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6082001000139 ;
+    saref:observes <http://example.org/iot/roof#pressure> .
+
+ex:pressure_observation_2 a saref:Observation ;
+    saref:hasResult ex:POD2-00340PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00340 ;
+    saref:observes <http://example.org/iot/office123#pressure> .
+
+ex:pressure_observation_3 a saref:Observation ;
+    saref:hasResult ex:POD2-00338PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00338 ;
+    saref:observes <http://example.org/iot/office113#pressure> .
+
+ex:pressure_observation_4 a saref:Observation ;
+    saref:hasResult ex:POD2-00814PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00814 ;
+    saref:observes <http://example.org/iot/#pressure> .
+
+ex:pressure_observation_5 a saref:Observation ;
+    saref:hasResult ex:POD2-00815PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00815 ;
+    saref:observes <http://example.org/iot/#pressure> .
+
+ex:pressure_observation_6 a saref:Observation ;
+    saref:hasResult ex:6102001000202PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000202 ;
+    saref:observes <http://example.org/iot/office001#pressure> .
+
+ex:pressure_observation_7 a saref:Observation ;
+    saref:hasResult ex:6102001000165PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:03:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000165 ;
+    saref:observes <http://example.org/iot/office104#pressure> .
+
+ex:pressure_observation_8 a saref:Observation ;
+    saref:hasResult ex:6102001000219PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000219 ;
+    saref:observes <http://example.org/iot/office111#pressure> .
+
+ex:pressure_observation_9 a saref:Observation ;
+    saref:hasResult ex:6102001000103PressureValue ;
+    saref:hasTimestamp "2024-12-19T07:54:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000103 ;
+    saref:observes <http://example.org/iot/office121#pressure> .
+
+ex:setpoint_temperature_observation a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1301Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1301 ;
+    saref:observes <http://example.org/iot/office011#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_1 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1214Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1214 ;
+    saref:observes <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_10 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1105Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1105 ;
+    saref:observes <http://example.org/iot/office111#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_11 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1207Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1207 ;
+    saref:observes <http://example.org/iot/office121#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_12 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1115Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1115 ;
+    saref:observes <http://example.org/iot/office116#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_13 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1305Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1305 ;
+    saref:observes <http://example.org/iot/office015#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_14 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1210Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1210 ;
+    saref:observes <http://example.org/iot/office124#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_15 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1206Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1206 ;
+    saref:observes <http://example.org/iot/office120#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_16 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1114Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1114 ;
+    saref:observes <http://example.org/iot/office115#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_17 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1102Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1102 ;
+    saref:observes <http://example.org/iot/office108#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_18 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1103Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1103 ;
+    saref:observes <http://example.org/iot/office109#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_19 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1111Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1111 ;
+    saref:observes <http://example.org/iot/office105#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_2 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1300Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1300 ;
+    saref:observes <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_20 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1304Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1304 ;
+    saref:observes <http://example.org/iot/office014#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_21 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1109Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1109 ;
+    saref:observes <http://example.org/iot/office103#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_22 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1106Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1106 ;
+    saref:observes <http://example.org/iot/office110#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_23 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1208Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1208 ;
+    saref:observes <http://example.org/iot/office122#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_24 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1307Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1307 ;
+    saref:observes <http://example.org/iot/office017#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_25 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1204Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1204 ;
+    saref:observes <http://example.org/iot/office118#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_26 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1303Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1303 ;
+    saref:observes <http://example.org/iot/office013#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_27 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1302Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1302 ;
+    saref:observes <http://example.org/iot/office012#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_28 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1202Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1202 ;
+    saref:observes <http://example.org/iot/office127#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_29 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1205Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1205 ;
+    saref:observes <http://example.org/iot/office119#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_3 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1213Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1213 ;
+    saref:observes <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_30 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1101Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1101 ;
+    saref:observes <http://example.org/iot/office107#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_31 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1107Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1107 ;
+    saref:observes <http://example.org/iot/office101#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_32 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1100Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1100 ;
+    saref:observes <http://example.org/iot/office106#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_33 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1201Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1201 ;
+    saref:observes <http://example.org/iot/office126#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_34 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1108Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1108 ;
+    saref:observes <http://example.org/iot/office102#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_35 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1104Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1104 ;
+    saref:observes <http://example.org/iot/office112#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_36 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1113Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1113 ;
+    saref:observes <http://example.org/iot/office114#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_37 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1306Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1306 ;
+    saref:observes <http://example.org/iot/office016#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_38 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1200Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1200 ;
+    saref:observes <http://example.org/iot/office125#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_39 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1203Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1203 ;
+    saref:observes <http://example.org/iot/office117#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_4 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1215Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1215 ;
+    saref:observes <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_5 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1209Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1209 ;
+    saref:observes <http://example.org/iot/office123#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_6 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1112Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1112 ;
+    saref:observes <http://example.org/iot/office113#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_7 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1212Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1212 ;
+    saref:observes <http://example.org/iot/office001#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_8 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1211Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1211 ;
+    saref:observes <http://example.org/iot/office001#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_9 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1110Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1110 ;
+    saref:observes <http://example.org/iot/office104#setpoint_temperature> .
+
+ex:t_init_0002Valuea71aa727-24da-41d2-9043-6d7250b5337b woso:hasValue 2.25e+01 ;
+    woso:isValueOfVariable ex:t_init_0002 .
+
+ex:t_init_0003Valuef4b4e0be-e7a2-4a1f-b5ba-726b818f4e33 woso:hasValue 2.309333e+01 ;
+    woso:isValueOfVariable ex:t_init_0003 .
+
+ex:t_init_0004Valued5ed38c0-6fd7-417f-b53d-bc05d0285044 woso:hasValue 1.914244e+01 ;
+    woso:isValueOfVariable ex:t_init_0004 .
+
+ex:t_init_0005Valuee921b2b2-62b3-401f-9701-f6bcfe983658 woso:hasValue 2.19e+01 ;
+    woso:isValueOfVariable ex:t_init_0005 .
+
+ex:t_init_0007Value1c29a613-b812-4a45-9ba1-78b1c8d76d3f woso:hasValue 2.06e+01 ;
+    woso:isValueOfVariable ex:t_init_0007 .
+
+ex:t_init_0008Value79035c3a-0c30-4bba-b567-4b2ead683200 woso:hasValue 1.890426e+01 ;
+    woso:isValueOfVariable ex:t_init_0008 .
+
+ex:t_init_0009Valuec7fdb1d0-17a4-44d3-96b9-29d969e6b7f4 woso:hasValue 2.12e+01 ;
+    woso:isValueOfVariable ex:t_init_0009 .
+
+ex:t_init_0010Value053a3fa0-4747-4f78-b1a9-7bced9831aaa woso:hasValue 2.021389e+01 ;
+    woso:isValueOfVariable ex:t_init_0010 .
+
+ex:t_init_0011Valueb8f07849-1656-4fc6-9013-6cdf117a379b woso:hasValue 1.995e+01 ;
+    woso:isValueOfVariable ex:t_init_0011 .
+
+ex:t_init_0013Valued4951664-2ae3-47d5-9cb7-7e904527022f woso:hasValue 2.116667e+01 ;
+    woso:isValueOfVariable ex:t_init_0013 .
+
+ex:t_init_0014Value58bca9f5-d3d6-473a-9c34-90e1b238306d woso:hasValue 1.95e+01 ;
+    woso:isValueOfVariable ex:t_init_0014 .
+
+ex:t_init_0015Value7c57f3ca-a587-42c1-b771-2c1468825e53 woso:hasValue 1.99e+01 ;
+    woso:isValueOfVariable ex:t_init_0015 .
+
+ex:t_init_0016Value92491192-f780-40ad-8873-7937cf3f5211 woso:hasValue 2.008333e+01 ;
+    woso:isValueOfVariable ex:t_init_0016 .
+
+ex:t_init_0017Valuedff4d7db-d55e-4ceb-9a64-d6d9da4920ea woso:hasValue 1.9925e+01 ;
+    woso:isValueOfVariable ex:t_init_0017 .
+
+ex:t_init_0018Value93778c3d-c933-45a4-b062-a6696b7832ab woso:hasValue 2.029167e+01 ;
+    woso:isValueOfVariable ex:t_init_0018 .
+
+ex:t_sp_0002Valueaa58dd78-c1f2-432a-9aca-ab91d7c2db3e woso:hasValue 2.2e+01 ;
+    woso:isValueOfVariable ex:t_sp_0002 .
+
+ex:t_sp_0003Value96dd6e95-0865-4b49-bb53-3597d8d546d7 woso:hasValue 2.35e+01 ;
+    woso:isValueOfVariable ex:t_sp_0003 .
+
+ex:t_sp_0004Value6741cb1b-8fc1-4562-8969-9d605740c424 woso:hasValue 1.9e+01 ;
+    woso:isValueOfVariable ex:t_sp_0004 .
+
+ex:t_sp_0005Value8523988f-4ef4-4767-a083-bd1ebfc22f32 woso:hasValue 2.4e+01 ;
+    woso:isValueOfVariable ex:t_sp_0005 .
+
+ex:t_sp_0007Valuef263c72d-e5c2-4fe2-b0d9-3025ab2ce5f1 woso:hasValue 2.1e+01 ;
+    woso:isValueOfVariable ex:t_sp_0007 .
+
+ex:t_sp_0008Valuee4d923a5-907e-4f9e-bc2b-6846178f1470 woso:hasValue 1.9e+01 ;
+    woso:isValueOfVariable ex:t_sp_0008 .
+
+ex:t_sp_0009Value677e4347-ec67-4187-b026-9f60bce98869 woso:hasValue 2.1e+01 ;
+    woso:isValueOfVariable ex:t_sp_0009 .
+
+ex:t_sp_0010Value702d0b3e-96eb-499a-9e4f-43697c38cc42 woso:hasValue 2.05e+01 ;
+    woso:isValueOfVariable ex:t_sp_0010 .
+
+ex:t_sp_0011Value60075445-8bd5-4e7c-a571-665213b9702f woso:hasValue 1.8e+01 ;
+    woso:isValueOfVariable ex:t_sp_0011 .
+
+ex:t_sp_0013Value8e7f3d93-bb96-4dd9-9e39-a62a654ef68c woso:hasValue 2.05e+01 ;
+    woso:isValueOfVariable ex:t_sp_0013 .
+
+ex:t_sp_0014Value612a4a0b-3d85-4799-a8f4-101239665195 woso:hasValue 1.9e+01 ;
+    woso:isValueOfVariable ex:t_sp_0014 .
+
+ex:t_sp_0015Valuec6144dc4-8699-46e8-a994-7c4a8d2c455e woso:hasValue 1.92e+01 ;
+    woso:isValueOfVariable ex:t_sp_0015 .
+
+ex:t_sp_0017Valuec90cc60c-ae30-404c-b0f0-74ea0048fd02 woso:hasValue 2.033333e+01 ;
+    woso:isValueOfVariable ex:t_sp_0017 .
+
+ex:t_sp_0018Value5d26439e-a87e-4b1a-b6eb-57217670f631 woso:hasValue 2.04e+01 ;
+    woso:isValueOfVariable ex:t_sp_0018 .
+
+ex:temperature_observation a saref:Observation ;
+    saref:hasResult ex:POD2-00335TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00335 ;
+    saref:observes <http://example.org/iot/office011#temperature> .
+
+ex:temperature_observation_1 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1301TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1301 ;
+    saref:observes <http://example.org/iot/office011#temperature> .
+
+ex:temperature_observation_10 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1112TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1112 ;
+    saref:observes <http://example.org/iot/office113#temperature> .
+
+ex:temperature_observation_11 a saref:Observation ;
+    saref:hasResult ex:POD2-00814TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00814 ;
+    saref:observes <http://example.org/iot/#temperature> .
+
+ex:temperature_observation_12 a saref:Observation ;
+    saref:hasResult ex:POD2-00815TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00815 ;
+    saref:observes <http://example.org/iot/#temperature> .
+
+ex:temperature_observation_13 a saref:Observation ;
+    saref:hasResult ex:6102001000202TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000202 ;
+    saref:observes <http://example.org/iot/office001#temperature> .
+
+ex:temperature_observation_14 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1212TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1212 ;
+    saref:observes <http://example.org/iot/office001#temperature> .
+
+ex:temperature_observation_15 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1211TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1211 ;
+    saref:observes <http://example.org/iot/office001#temperature> .
+
+ex:temperature_observation_16 a saref:Observation ;
+    saref:hasResult ex:6102001000165TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:03:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000165 ;
+    saref:observes <http://example.org/iot/office104#temperature> .
+
+ex:temperature_observation_17 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1110TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1110 ;
+    saref:observes <http://example.org/iot/office104#temperature> .
+
+ex:temperature_observation_18 a saref:Observation ;
+    saref:hasResult ex:6102001000219TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000219 ;
+    saref:observes <http://example.org/iot/office111#temperature> .
+
+ex:temperature_observation_19 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1105TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1105 ;
+    saref:observes <http://example.org/iot/office111#temperature> .
+
+ex:temperature_observation_2 a saref:Observation ;
+    saref:hasResult ex:POD2-00337TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00337 ;
+    saref:observes <http://example.org/iot/office020#temperature> .
+
+ex:temperature_observation_20 a saref:Observation ;
+    saref:hasResult ex:6102001000103TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T07:54:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000103 ;
+    saref:observes <http://example.org/iot/office121#temperature> .
+
+ex:temperature_observation_21 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1207TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1207 ;
+    saref:observes <http://example.org/iot/office121#temperature> .
+
+ex:temperature_observation_22 a saref:Observation ;
+    saref:hasResult ex:6102001000042TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:03:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000042 ;
+    saref:observes <http://example.org/iot/office116#temperature> .
+
+ex:temperature_observation_23 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1115TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1115 ;
+    saref:observes <http://example.org/iot/office116#temperature> .
+
+ex:temperature_observation_24 a saref:Observation ;
+    saref:hasResult ex:6082001000139TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6082001000139 ;
+    saref:observes <http://example.org/iot/roof#temperature> .
+
+ex:temperature_observation_25 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1305TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1305 ;
+    saref:observes <http://example.org/iot/office015#temperature> .
+
+ex:temperature_observation_26 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1210TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1210 ;
+    saref:observes <http://example.org/iot/office124#temperature> .
+
+ex:temperature_observation_27 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1206TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1206 ;
+    saref:observes <http://example.org/iot/office120#temperature> .
+
+ex:temperature_observation_28 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1114TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1114 ;
+    saref:observes <http://example.org/iot/office115#temperature> .
+
+ex:temperature_observation_29 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1102TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1102 ;
+    saref:observes <http://example.org/iot/office108#temperature> .
+
+ex:temperature_observation_3 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1214TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1214 ;
+    saref:observes <http://example.org/iot/office020#temperature> .
+
+ex:temperature_observation_30 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1103TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1103 ;
+    saref:observes <http://example.org/iot/office109#temperature> .
+
+ex:temperature_observation_31 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1111TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1111 ;
+    saref:observes <http://example.org/iot/office105#temperature> .
+
+ex:temperature_observation_32 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1304TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1304 ;
+    saref:observes <http://example.org/iot/office014#temperature> .
+
+ex:temperature_observation_33 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1109TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1109 ;
+    saref:observes <http://example.org/iot/office103#temperature> .
+
+ex:temperature_observation_34 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1106TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1106 ;
+    saref:observes <http://example.org/iot/office110#temperature> .
+
+ex:temperature_observation_35 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1208TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1208 ;
+    saref:observes <http://example.org/iot/office122#temperature> .
+
+ex:temperature_observation_36 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1307TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1307 ;
+    saref:observes <http://example.org/iot/office017#temperature> .
+
+ex:temperature_observation_37 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1204TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1204 ;
+    saref:observes <http://example.org/iot/office118#temperature> .
+
+ex:temperature_observation_38 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1303TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1303 ;
+    saref:observes <http://example.org/iot/office013#temperature> .
+
+ex:temperature_observation_39 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1302TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1302 ;
+    saref:observes <http://example.org/iot/office012#temperature> .
+
+ex:temperature_observation_4 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1300TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1300 ;
+    saref:observes <http://example.org/iot/office020#temperature> .
+
+ex:temperature_observation_40 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1202TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1202 ;
+    saref:observes <http://example.org/iot/office127#temperature> .
+
+ex:temperature_observation_41 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1205TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1205 ;
+    saref:observes <http://example.org/iot/office119#temperature> .
+
+ex:temperature_observation_42 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1101TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1101 ;
+    saref:observes <http://example.org/iot/office107#temperature> .
+
+ex:temperature_observation_43 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1107TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1107 ;
+    saref:observes <http://example.org/iot/office101#temperature> .
+
+ex:temperature_observation_44 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1100TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1100 ;
+    saref:observes <http://example.org/iot/office106#temperature> .
+
+ex:temperature_observation_45 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1201TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1201 ;
+    saref:observes <http://example.org/iot/office126#temperature> .
+
+ex:temperature_observation_46 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1108TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1108 ;
+    saref:observes <http://example.org/iot/office102#temperature> .
+
+ex:temperature_observation_47 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1104TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1104 ;
+    saref:observes <http://example.org/iot/office112#temperature> .
+
+ex:temperature_observation_48 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1113TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1113 ;
+    saref:observes <http://example.org/iot/office114#temperature> .
+
+ex:temperature_observation_49 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1306TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1306 ;
+    saref:observes <http://example.org/iot/office016#temperature> .
+
+ex:temperature_observation_5 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1213TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1213 ;
+    saref:observes <http://example.org/iot/office020#temperature> .
+
+ex:temperature_observation_50 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1200TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1200 ;
+    saref:observes <http://example.org/iot/office125#temperature> .
+
+ex:temperature_observation_51 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1203TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1203 ;
+    saref:observes <http://example.org/iot/office117#temperature> .
+
+ex:temperature_observation_6 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1215TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1215 ;
+    saref:observes <http://example.org/iot/office020#temperature> .
+
+ex:temperature_observation_7 a saref:Observation ;
+    saref:hasResult ex:POD2-00340TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00340 ;
+    saref:observes <http://example.org/iot/office123#temperature> .
+
+ex:temperature_observation_8 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1209TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1209 ;
+    saref:observes <http://example.org/iot/office123#temperature> .
+
+ex:temperature_observation_9 a saref:Observation ;
+    saref:hasResult ex:POD2-00338TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00+00:00"^^xsd:dateTime ;
+    saref:madeBy ex:POD2-00338 ;
+    saref:observes <http://example.org/iot/office113#temperature> .
+
+ex:zone113 a saref:FeatureOfInterest .
+
+ex:zone114 a saref:FeatureOfInterest .
+
+ex:6082001000139HumidityValue a saref:PropertyValue ;
+    saref:hasValue 8.7e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/roof#humidity> .
+
+ex:6082001000139PressureValue a saref:PropertyValue ;
+    saref:hasValue 9.990625e+02 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/roof#pressure> .
+
+ex:6082001000139TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.275e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/roof#temperature> .
+
+ex:6102001000042HumidityValue a saref:PropertyValue ;
+    saref:hasValue 5.3e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office116#humidity> .
+
+ex:6102001000042PressureValue a saref:PropertyValue ;
+    saref:hasValue 9.95125e+02 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office116#pressure> .
+
+ex:6102001000042TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.925e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office116#temperature> .
+
+ex:6102001000103HumidityValue a saref:PropertyValue ;
+    saref:hasValue 6e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office121#humidity> .
+
+ex:6102001000103PressureValue a saref:PropertyValue ;
+    saref:hasValue 9.942188e+02 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office121#pressure> .
+
+ex:6102001000103TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.85e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office121#temperature> .
+
+ex:6102001000165HumidityValue a saref:PropertyValue ;
+    saref:hasValue 3.8e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office104#humidity> .
+
+ex:6102001000165PressureValue a saref:PropertyValue ;
+    saref:hasValue 1.018e+03 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office104#pressure> .
+
+ex:6102001000165TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.05e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office104#temperature> .
+
+ex:6102001000202HumidityValue a saref:PropertyValue ;
+    saref:hasValue 5.6e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office001#humidity> .
+
+ex:6102001000202PressureValue a saref:PropertyValue ;
+    saref:hasValue 9.963438e+02 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office001#pressure> .
+
+ex:6102001000202TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.025e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office001#temperature> .
+
+ex:6102001000219HumidityValue a saref:PropertyValue ;
+    saref:hasValue 4.9e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office111#humidity> .
+
+ex:6102001000219PressureValue a saref:PropertyValue ;
+    saref:hasValue 9.975625e+02 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office111#pressure> .
+
+ex:6102001000219TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office111#temperature> .
+
+ex:EDF_building saref:consistsOf ex:roof,
+        ex:zone001,
+        ex:zone002,
+        ex:zone003,
+        ex:zone004,
+        ex:zone005,
+        ex:zone010,
+        ex:zone012,
+        ex:zone013,
+        ex:zone014,
+        ex:zone101,
+        ex:zone102,
+        ex:zone103,
+        ex:zone104,
+        ex:zone105,
+        ex:zone106,
+        ex:zone107,
+        ex:zone108,
+        ex:zone109,
+        ex:zone111 .
+
+ex:EDF_building_thermal_model a woso:SimulationModel ;
+    woso: "FMU"^^xsd:string ;
+    woso:author "EDF R&D"^^xsd:string ;
+    woso:copyright " "^^xsd:string ;
+    woso:filePath "C:/Users/e93780/Documents/Python_Environments/K15_UseCase/Code/EDF_building_thermal_model.fmu"^^xsd:string ;
+    woso:formatVersion "2.0"^^xsd:string ;
+    woso:generationDateAndTime "2024-12-17T23:37:29+00:00"^^xsd:dateTime ;
+    woso:generationTool "Dymola Version 2023x Refresh 1, 2023-04-12 (requires license to execute)"^^xsd:string ;
+    woso:licence " "^^xsd:string ;
+    woso:models ex:EDF_building ;
+    woso:version "1"^^xsd:string .
+
+ex:POD2-00335Carbon_dioxideValue a saref:PropertyValue ;
+    saref:hasValue 3.757391e+02 ;
+    saref:isMeasuredIn unit:PPM ;
+    saref:isValueOfProperty <http://example.org/iot/office011#carbon_dioxide> .
+
+ex:POD2-00335HumidityValue a saref:PropertyValue ;
+    saref:hasValue 3.672609e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office011#humidity> .
+
+ex:POD2-00335PressureValue a saref:PropertyValue ;
+    saref:hasValue 1.015852e+03 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office011#pressure> .
+
+ex:POD2-00335TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.328e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office011#temperature> .
+
+ex:POD2-00337Carbon_dioxideValue a saref:PropertyValue ;
+    saref:hasValue 1e+00 ;
+    saref:isMeasuredIn unit:PPM ;
+    saref:isValueOfProperty <http://example.org/iot/office020#carbon_dioxide> .
+
+ex:POD2-00337HumidityValue a saref:PropertyValue ;
+    saref:hasValue 4.296522e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office020#humidity> .
+
+ex:POD2-00337PressureValue a saref:PropertyValue ;
+    saref:hasValue 1.015956e+03 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office020#pressure> .
+
+ex:POD2-00337TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.931222e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#temperature> .
+
+ex:POD2-00338Carbon_dioxideValue a saref:PropertyValue ;
+    saref:hasValue 4.142174e+02 ;
+    saref:isMeasuredIn unit:PPM ;
+    saref:isValueOfProperty <http://example.org/iot/office113#carbon_dioxide> .
+
+ex:POD2-00338HumidityValue a saref:PropertyValue ;
+    saref:hasValue 4.726522e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office113#humidity> .
+
+ex:POD2-00338PressureValue a saref:PropertyValue ;
+    saref:hasValue 1.015677e+03 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office113#pressure> .
+
+ex:POD2-00338TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.791278e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office113#temperature> .
+
+ex:POD2-00340Carbon_dioxideValue a saref:PropertyValue ;
+    saref:hasValue 3.165652e+02 ;
+    saref:isMeasuredIn unit:PPM ;
+    saref:isValueOfProperty <http://example.org/iot/office123#carbon_dioxide> .
+
+ex:POD2-00340HumidityValue a saref:PropertyValue ;
+    saref:hasValue 4.565217e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office123#humidity> .
+
+ex:POD2-00340PressureValue a saref:PropertyValue ;
+    saref:hasValue 1.015483e+03 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office123#pressure> .
+
+ex:POD2-00340TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.914167e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office123#temperature> .
+
+ex:POD2-00814Carbon_dioxideValue a saref:PropertyValue ;
+    saref:hasValue 3.925455e+02 ;
+    saref:isMeasuredIn unit:PPM ;
+    saref:isValueOfProperty <http://example.org/iot/#carbon_dioxide> .
+
+ex:POD2-00814HumidityValue a saref:PropertyValue ;
+    saref:hasValue 3.765455e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/#humidity> .
+
+ex:POD2-00814PressureValue a saref:PropertyValue ;
+    saref:hasValue 1.01553e+03 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/#pressure> .
+
+ex:POD2-00814TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.014444e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/#temperature> .
+
+ex:POD2-00815Carbon_dioxideValue a saref:PropertyValue ;
+    saref:hasValue 4.246364e+02 ;
+    saref:isMeasuredIn unit:PPM ;
+    saref:isValueOfProperty <http://example.org/iot/#carbon_dioxide> .
+
+ex:POD2-00815HumidityValue a saref:PropertyValue ;
+    saref:hasValue 3.763636e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/#humidity> .
+
+ex:POD2-00815PressureValue a saref:PropertyValue ;
+    saref:hasValue 1.015609e+03 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/#pressure> .
+
+ex:POD2-00815TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.046278e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/#temperature> .
+
+ex:t_init_0001 a woso:SimulationVariable ;
+    rdfs:label "t_init_0001"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/roof#temperature> .
+
+ex:t_init_0006 a woso:SimulationVariable ;
+    rdfs:label "t_init_0006"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone003#temperature> .
+
+ex:t_init_0012 a woso:SimulationVariable ;
+    rdfs:label "t_init_0012"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone013#temperature> .
+
+ex:t_init_0019 a woso:SimulationVariable ;
+    rdfs:label "t_init_0019"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone103#temperature> .
+
+ex:t_init_0020 a woso:SimulationVariable ;
+    rdfs:label "t_init_0020"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone014#temperature> .
+
+ex:t_sp_0001 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0001"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/roof#setpoint_temperature> .
+
+ex:t_sp_0006 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0006"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone003#setpoint_temperature> .
+
+ex:t_sp_0012 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0012"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone013#setpoint_temperature> .
+
+ex:t_sp_0019 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0019"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone103#setpoint_temperature> .
+
+ex:t_sp_0020 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0020"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone014#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1100Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.8e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office106#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1100TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.86e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office106#temperature> .
+
+ex:xdppivjzy2wixy6s-l1101Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.8e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office107#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1101TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.92e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office107#temperature> .
+
+ex:xdppivjzy2wixy6s-l1102Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office108#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1102TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.17e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office108#temperature> .
+
+ex:xdppivjzy2wixy6s-l1103Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office109#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1103TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.12e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office109#temperature> .
+
+ex:xdppivjzy2wixy6s-l1104Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office112#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1104TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.99e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office112#temperature> .
+
+ex:xdppivjzy2wixy6s-l1105Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office111#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1105TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.18e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office111#temperature> .
+
+ex:xdppivjzy2wixy6s-l1106Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office110#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1106TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.97e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office110#temperature> .
+
+ex:xdppivjzy2wixy6s-l1107Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office101#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1107TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.95e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office101#temperature> .
+
+ex:xdppivjzy2wixy6s-l1108Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.7e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office102#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1108TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.91e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office102#temperature> .
+
+ex:xdppivjzy2wixy6s-l1109Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office103#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1109TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.08e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office103#temperature> .
+
+ex:xdppivjzy2wixy6s-l1110Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office104#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1110TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.08e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office104#temperature> .
+
+ex:xdppivjzy2wixy6s-l1111Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office105#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1111TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.97e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office105#temperature> .
+
+ex:xdppivjzy2wixy6s-l1112Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.7e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office113#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1112TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.77e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office113#temperature> .
+
+ex:xdppivjzy2wixy6s-l1113Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office114#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1113TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.06e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office114#temperature> .
+
+ex:xdppivjzy2wixy6s-l1114Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office115#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1114TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.97e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office115#temperature> .
+
+ex:xdppivjzy2wixy6s-l1115Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office116#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1115TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.11e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office116#temperature> .
+
+ex:xdppivjzy2wixy6s-l1200Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office125#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1200TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.13e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office125#temperature> .
+
+ex:xdppivjzy2wixy6s-l1201Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.8e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office126#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1201TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.86e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office126#temperature> .
+
+ex:xdppivjzy2wixy6s-l1202Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office127#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1202TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.11e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office127#temperature> .
+
+ex:xdppivjzy2wixy6s-l1203Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office117#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1203TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.22e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office117#temperature> .
+
+ex:xdppivjzy2wixy6s-l1204Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office118#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1204TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.09e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office118#temperature> .
+
+ex:xdppivjzy2wixy6s-l1205Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.7e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office119#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1205TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.86e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office119#temperature> .
+
+ex:xdppivjzy2wixy6s-l1206Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office120#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1206TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.12e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office120#temperature> .
+
+ex:xdppivjzy2wixy6s-l1207Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office121#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1207TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office121#temperature> .
+
+ex:xdppivjzy2wixy6s-l1208Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office122#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1208TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office122#temperature> .
+
+ex:xdppivjzy2wixy6s-l1209Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.1e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office123#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1209TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.12e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office123#temperature> .
+
+ex:xdppivjzy2wixy6s-l1210Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office124#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1210TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.03e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office124#temperature> .
+
+ex:xdppivjzy2wixy6s-l1211Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office001#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1211TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.99e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office001#temperature> .
+
+ex:xdppivjzy2wixy6s-l1212Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office001#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1212TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.99e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office001#temperature> .
+
+ex:xdppivjzy2wixy6s-l1213Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1213TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.91e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#temperature> .
+
+ex:xdppivjzy2wixy6s-l1214Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1214TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.91e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#temperature> .
+
+ex:xdppivjzy2wixy6s-l1215Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1215TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.91e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#temperature> .
+
+ex:xdppivjzy2wixy6s-l1300Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1300TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.91e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office020#temperature> .
+
+ex:xdppivjzy2wixy6s-l1301Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office011#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1301TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.07e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office011#temperature> .
+
+ex:xdppivjzy2wixy6s-l1302Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.5e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office012#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1302TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.53e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office012#temperature> .
+
+ex:xdppivjzy2wixy6s-l1303Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office013#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1303TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.25e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office013#temperature> .
+
+ex:xdppivjzy2wixy6s-l1304Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.5e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office014#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1304TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.3e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office014#temperature> .
+
+ex:xdppivjzy2wixy6s-l1305Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.6e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office015#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1305TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.34e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office015#temperature> .
+
+ex:xdppivjzy2wixy6s-l1306Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office016#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1306TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.91e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office016#temperature> .
+
+ex:xdppivjzy2wixy6s-l1307Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.3e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office017#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1307TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.21e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office017#temperature> .
+
+ex:zone001 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office013 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone001#setpoint_temperature>,
+        <http://example.org/iot/zone001#temperature> .
+
+ex:zone002 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office011,
+        ex:office012 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone002#setpoint_temperature>,
+        <http://example.org/iot/zone002#temperature> .
+
+ex:zone003 a saref:FeatureOfInterest ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone003#setpoint_temperature>,
+        <http://example.org/iot/zone003#temperature> .
+
+ex:zone004 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office014,
+        ex:office015,
+        ex:office016,
+        ex:office017 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone004#setpoint_temperature>,
+        <http://example.org/iot/zone004#temperature> .
+
+ex:zone005 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office020 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone005#setpoint_temperature>,
+        <http://example.org/iot/zone005#temperature> .
+
+ex:zone010 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office104,
+        ex:office105,
+        ex:office106,
+        ex:office107,
+        ex:office108 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone010#setpoint_temperature>,
+        <http://example.org/iot/zone010#temperature> .
+
+ex:zone012 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office115,
+        ex:office116,
+        ex:office117,
+        ex:office118,
+        ex:office119 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone012#setpoint_temperature>,
+        <http://example.org/iot/zone012#temperature> .
+
+ex:zone013 saref:hasPropertyOfInterest <http://example.org/iot/zone013#setpoint_temperature>,
+        <http://example.org/iot/zone013#temperature> .
+
+ex:zone014 saref:hasPropertyOfInterest <http://example.org/iot/zone014#setpoint_temperature>,
+        <http://example.org/iot/zone014#temperature> .
+
+ex:zone101 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office114 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone101#setpoint_temperature>,
+        <http://example.org/iot/zone101#temperature> .
+
+ex:zone102 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office113,
+        ex:office127 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone102#setpoint_temperature>,
+        <http://example.org/iot/zone102#temperature> .
+
+ex:zone103 a saref:FeatureOfInterest ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone103#setpoint_temperature>,
+        <http://example.org/iot/zone103#temperature> .
+
+ex:zone104 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office109 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone104#setpoint_temperature>,
+        <http://example.org/iot/zone104#temperature> .
+
+ex:zone105 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office123,
+        ex:office124 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone105#setpoint_temperature>,
+        <http://example.org/iot/zone105#temperature> .
+
+ex:zone106 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office102,
+        ex:office103 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone106#setpoint_temperature>,
+        <http://example.org/iot/zone106#temperature> .
+
+ex:zone107 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office110,
+        ex:office111 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone107#setpoint_temperature>,
+        <http://example.org/iot/zone107#temperature> .
+
+ex:zone108 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office112 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone108#temperature> .
+
+ex:zone109 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office101 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone109#setpoint_temperature>,
+        <http://example.org/iot/zone109#temperature> .
+
+ex:zone111 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office120,
+        ex:office121,
+        ex:office122 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone111#setpoint_temperature>,
+        <http://example.org/iot/zone111#temperature> .
+
+<http://example.org/iot/office001#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office001 .
+
+<http://example.org/iot/office001#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office001 .
+
+<http://example.org/iot/office011#carbon_dioxide> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:carbon_dioxide ;
+    saref:isPropertyOfInterestOf ex:office011 .
+
+<http://example.org/iot/office011#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office011 .
+
+<http://example.org/iot/office011#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office011 .
+
+<http://example.org/iot/office011#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office011 .
+
+<http://example.org/iot/office012#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office012 .
+
+<http://example.org/iot/office012#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office012 .
+
+<http://example.org/iot/office013#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office013 .
+
+<http://example.org/iot/office013#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office013 .
+
+<http://example.org/iot/office014#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office014 .
+
+<http://example.org/iot/office014#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office014 .
+
+<http://example.org/iot/office015#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office015 .
+
+<http://example.org/iot/office015#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office015 .
+
+<http://example.org/iot/office016#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office016 .
+
+<http://example.org/iot/office016#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office016 .
+
+<http://example.org/iot/office017#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office017 .
+
+<http://example.org/iot/office017#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office017 .
+
+<http://example.org/iot/office020#carbon_dioxide> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:carbon_dioxide ;
+    saref:isPropertyOfInterestOf ex:office020 .
+
+<http://example.org/iot/office020#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office020 .
+
+<http://example.org/iot/office020#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office020 .
+
+<http://example.org/iot/office101#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office101 .
+
+<http://example.org/iot/office101#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office101 .
+
+<http://example.org/iot/office102#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office102 .
+
+<http://example.org/iot/office102#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office102 .
+
+<http://example.org/iot/office103#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office103 .
+
+<http://example.org/iot/office103#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office103 .
+
+<http://example.org/iot/office104#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office104 .
+
+<http://example.org/iot/office104#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office104 .
+
+<http://example.org/iot/office104#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office104 .
+
+<http://example.org/iot/office105#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office105 .
+
+<http://example.org/iot/office105#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office105 .
+
+<http://example.org/iot/office106#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office106 .
+
+<http://example.org/iot/office106#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office106 .
+
+<http://example.org/iot/office107#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office107 .
+
+<http://example.org/iot/office107#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office107 .
+
+<http://example.org/iot/office108#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office108 .
+
+<http://example.org/iot/office108#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office108 .
+
+<http://example.org/iot/office109#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office109 .
+
+<http://example.org/iot/office109#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office109 .
+
+<http://example.org/iot/office110#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office110 .
+
+<http://example.org/iot/office110#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office110 .
+
+<http://example.org/iot/office111#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+<http://example.org/iot/office111#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+<http://example.org/iot/office111#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+<http://example.org/iot/office112#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office112 .
+
+<http://example.org/iot/office112#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office112 .
+
+<http://example.org/iot/office113#carbon_dioxide> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:carbon_dioxide ;
+    saref:isPropertyOfInterestOf ex:office113 .
+
+<http://example.org/iot/office113#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office113 .
+
+<http://example.org/iot/office113#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office113 .
+
+<http://example.org/iot/office113#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office113 .
+
+<http://example.org/iot/office114#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office114 .
+
+<http://example.org/iot/office114#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office114 .
+
+<http://example.org/iot/office115#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office115 .
+
+<http://example.org/iot/office115#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office115 .
+
+<http://example.org/iot/office116#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office116 .
+
+<http://example.org/iot/office116#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office116 .
+
+<http://example.org/iot/office116#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office116 .
+
+<http://example.org/iot/office117#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office117 .
+
+<http://example.org/iot/office117#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office117 .
+
+<http://example.org/iot/office118#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office118 .
+
+<http://example.org/iot/office118#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office118 .
+
+<http://example.org/iot/office119#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office119 .
+
+<http://example.org/iot/office119#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office119 .
+
+<http://example.org/iot/office120#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office120 .
+
+<http://example.org/iot/office120#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office120 .
+
+<http://example.org/iot/office121#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office121 .
+
+<http://example.org/iot/office121#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office121 .
+
+<http://example.org/iot/office121#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office121 .
+
+<http://example.org/iot/office122#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office122 .
+
+<http://example.org/iot/office122#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office122 .
+
+<http://example.org/iot/office123#carbon_dioxide> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:carbon_dioxide ;
+    saref:isPropertyOfInterestOf ex:office123 .
+
+<http://example.org/iot/office123#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office123 .
+
+<http://example.org/iot/office123#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office123 .
+
+<http://example.org/iot/office123#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office123 .
+
+<http://example.org/iot/office124#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office124 .
+
+<http://example.org/iot/office124#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office124 .
+
+<http://example.org/iot/office125#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office125 .
+
+<http://example.org/iot/office125#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office125 .
+
+<http://example.org/iot/office126#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office126 .
+
+<http://example.org/iot/office126#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office126 .
+
+<http://example.org/iot/office127#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office127 .
+
+<http://example.org/iot/office127#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office127 .
+
+<http://example.org/iot/roof#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:roof .
+
+<http://example.org/iot/roof#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:roof .
+
+<http://example.org/iot/roof#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+ex:t_init_0002 a woso:SimulationVariable ;
+    rdfs:label "t_init_0002"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone001#temperature> .
+
+ex:t_init_0003 a woso:SimulationVariable ;
+    rdfs:label "t_init_0003"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone002#temperature> .
+
+ex:t_init_0004 a woso:SimulationVariable ;
+    rdfs:label "t_init_0004"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone005#temperature> .
+
+ex:t_init_0005 a woso:SimulationVariable ;
+    rdfs:label "t_init_0005"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone004#temperature> .
+
+ex:t_init_0007 a woso:SimulationVariable ;
+    rdfs:label "t_init_0007"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone101#temperature> .
+
+ex:t_init_0008 a woso:SimulationVariable ;
+    rdfs:label "t_init_0008"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone102#temperature> .
+
+ex:t_init_0009 a woso:SimulationVariable ;
+    rdfs:label "t_init_0009"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone104#temperature> .
+
+ex:t_init_0010 a woso:SimulationVariable ;
+    rdfs:label "t_init_0010"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone105#temperature> .
+
+ex:t_init_0011 a woso:SimulationVariable ;
+    rdfs:label "t_init_0011"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone106#temperature> .
+
+ex:t_init_0013 a woso:SimulationVariable ;
+    rdfs:label "t_init_0013"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone107#temperature> .
+
+ex:t_init_0014 a woso:SimulationVariable ;
+    rdfs:label "t_init_0014"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone109#temperature> .
+
+ex:t_init_0015 a woso:SimulationVariable ;
+    rdfs:label "t_init_0015"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone108#temperature> .
+
+ex:t_init_0016 a woso:SimulationVariable ;
+    rdfs:label "t_init_0016"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone010#temperature> .
+
+ex:t_init_0017 a woso:SimulationVariable ;
+    rdfs:label "t_init_0017"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone111#temperature> .
+
+ex:t_init_0018 a woso:SimulationVariable ;
+    rdfs:label "t_init_0018"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone012#temperature> .
+
+ex:t_sp_0002 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0002"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone001#setpoint_temperature> .
+
+ex:t_sp_0003 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0003"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone002#setpoint_temperature> .
+
+ex:t_sp_0004 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0004"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone005#setpoint_temperature> .
+
+ex:t_sp_0005 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0005"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone004#setpoint_temperature> .
+
+ex:t_sp_0007 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0007"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone101#setpoint_temperature> .
+
+ex:t_sp_0008 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0008"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone102#setpoint_temperature> .
+
+ex:t_sp_0009 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0009"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone104#setpoint_temperature> .
+
+ex:t_sp_0010 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0010"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone105#setpoint_temperature> .
+
+ex:t_sp_0011 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0011"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone106#setpoint_temperature> .
+
+ex:t_sp_0013 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0013"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone107#setpoint_temperature> .
+
+ex:t_sp_0014 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0014"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone109#setpoint_temperature> .
+
+ex:t_sp_0015 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0015"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone010#setpoint_temperature> .
+
+ex:t_sp_0017 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0017"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone111#setpoint_temperature> .
+
+ex:t_sp_0018 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0018"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone012#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1100 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1101 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1102 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1103 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1104 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1105 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1106 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1107 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1108 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1109 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1110 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1111 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1112 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1113 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1114 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1115 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1200 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1201 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1202 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1203 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1204 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1205 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1206 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1207 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1208 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1209 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1210 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1211 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1212 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1213 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1214 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1215 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1300 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1301 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1302 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1303 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1304 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1305 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1306 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1307 a saref:Sensor .
+
+<http://example.org/iot/zone001#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone001#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone002#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone002#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone003#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone003#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone004#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone004#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone005#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone005#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone010#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone010#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone012#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone012#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone013#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone013#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone014#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone014#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone101#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone101#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone102#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone102#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone103#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone103#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone104#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone104#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone105#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone105#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone106#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone106#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone107#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone107#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone108#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone109#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone109#temperature> saref:hasPropertyKind ex:temperature .
+
+<http://example.org/iot/zone111#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone111#temperature> saref:hasPropertyKind ex:temperature .
+
+ex:6082001000139 a saref:Sensor .
+
+ex:6102001000042 a saref:Sensor .
+
+ex:6102001000103 a saref:Sensor .
+
+ex:6102001000165 a saref:Sensor .
+
+ex:6102001000202 a saref:Sensor .
+
+ex:6102001000219 a saref:Sensor .
+
+ex:P_heat_0001 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0001"^^xsd:string .
+
+ex:P_heat_0002 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0002"^^xsd:string .
+
+ex:P_heat_0003 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0003"^^xsd:string .
+
+ex:P_heat_0004 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0004"^^xsd:string .
+
+ex:P_heat_0005 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0005"^^xsd:string .
+
+ex:P_heat_0006 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0006"^^xsd:string .
+
+ex:P_heat_0007 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0007"^^xsd:string .
+
+ex:P_heat_0008 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0008"^^xsd:string .
+
+ex:P_heat_0009 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0009"^^xsd:string .
+
+ex:P_heat_0010 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0010"^^xsd:string .
+
+ex:P_heat_0011 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0011"^^xsd:string .
+
+ex:P_heat_0012 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0012"^^xsd:string .
+
+ex:P_heat_0013 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0013"^^xsd:string .
+
+ex:P_heat_0014 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0014"^^xsd:string .
+
+ex:P_heat_0015 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0015"^^xsd:string .
+
+ex:P_heat_0016 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0016"^^xsd:string .
+
+ex:P_heat_0017 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0017"^^xsd:string .
+
+ex:P_heat_0018 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0018"^^xsd:string .
+
+ex:P_heat_0019 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0019"^^xsd:string .
+
+ex:P_heat_0020 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0020"^^xsd:string .
+
+ex:T_air_0001 a woso:SimulationVariable ;
+    rdfs:label "T_air_0001"^^xsd:string .
+
+ex:T_air_0002 a woso:SimulationVariable ;
+    rdfs:label "T_air_0002"^^xsd:string .
+
+ex:T_air_0003 a woso:SimulationVariable ;
+    rdfs:label "T_air_0003"^^xsd:string .
+
+ex:T_air_0004 a woso:SimulationVariable ;
+    rdfs:label "T_air_0004"^^xsd:string .
+
+ex:T_air_0005 a woso:SimulationVariable ;
+    rdfs:label "T_air_0005"^^xsd:string .
+
+ex:T_air_0006 a woso:SimulationVariable ;
+    rdfs:label "T_air_0006"^^xsd:string .
+
+ex:T_air_0007 a woso:SimulationVariable ;
+    rdfs:label "T_air_0007"^^xsd:string .
+
+ex:T_air_0008 a woso:SimulationVariable ;
+    rdfs:label "T_air_0008"^^xsd:string .
+
+ex:T_air_0009 a woso:SimulationVariable ;
+    rdfs:label "T_air_0009"^^xsd:string .
+
+ex:T_air_0010 a woso:SimulationVariable ;
+    rdfs:label "T_air_0010"^^xsd:string .
+
+ex:T_air_0011 a woso:SimulationVariable ;
+    rdfs:label "T_air_0011"^^xsd:string .
+
+ex:T_air_0012 a woso:SimulationVariable ;
+    rdfs:label "T_air_0012"^^xsd:string .
+
+ex:T_air_0013 a woso:SimulationVariable ;
+    rdfs:label "T_air_0013"^^xsd:string .
+
+ex:T_air_0014 a woso:SimulationVariable ;
+    rdfs:label "T_air_0014"^^xsd:string .
+
+ex:T_air_0015 a woso:SimulationVariable ;
+    rdfs:label "T_air_0015"^^xsd:string .
+
+ex:T_air_0016 a woso:SimulationVariable ;
+    rdfs:label "T_air_0016"^^xsd:string .
+
+ex:T_air_0017 a woso:SimulationVariable ;
+    rdfs:label "T_air_0017"^^xsd:string .
+
+ex:T_air_0018 a woso:SimulationVariable ;
+    rdfs:label "T_air_0018"^^xsd:string .
+
+ex:T_air_0019 a woso:SimulationVariable ;
+    rdfs:label "T_air_0019"^^xsd:string .
+
+ex:T_air_0020 a woso:SimulationVariable ;
+    rdfs:label "T_air_0020"^^xsd:string .
+
+ex:office012 a saref:FeatureOfInterest .
+
+ex:office013 a saref:FeatureOfInterest .
+
+ex:office014 a saref:FeatureOfInterest .
+
+ex:office015 a saref:FeatureOfInterest .
+
+ex:office016 a saref:FeatureOfInterest .
+
+ex:office017 a saref:FeatureOfInterest .
+
+ex:office101 a saref:FeatureOfInterest .
+
+ex:office102 a saref:FeatureOfInterest .
+
+ex:office103 a saref:FeatureOfInterest .
+
+ex:office105 a saref:FeatureOfInterest .
+
+ex:office106 a saref:FeatureOfInterest .
+
+ex:office107 a saref:FeatureOfInterest .
+
+ex:office108 a saref:FeatureOfInterest .
+
+ex:office109 a saref:FeatureOfInterest .
+
+ex:office110 a saref:FeatureOfInterest .
+
+ex:office112 a saref:FeatureOfInterest .
+
+ex:office114 a saref:FeatureOfInterest .
+
+ex:office115 a saref:FeatureOfInterest .
+
+ex:office117 a saref:FeatureOfInterest .
+
+ex:office118 a saref:FeatureOfInterest .
+
+ex:office119 a saref:FeatureOfInterest .
+
+ex:office120 a saref:FeatureOfInterest .
+
+ex:office122 a saref:FeatureOfInterest .
+
+ex:office124 a saref:FeatureOfInterest .
+
+ex:office125 a saref:FeatureOfInterest .
+
+ex:office126 a saref:FeatureOfInterest .
+
+ex:office127 a saref:FeatureOfInterest .
+
+ex: saref:consistsOf ex:office001,
+        ex:office125,
+        ex:office126 .
+
+<http://example.org/iot/#carbon_dioxide> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:carbon_dioxide ;
+    saref:isPropertyOfInterestOf ex: .
+
+<http://example.org/iot/#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex: .
+
+<http://example.org/iot/#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex: .
+
+<http://example.org/iot/#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex: .
+
+ex:POD2-00335 a saref:Sensor .
+
+ex:POD2-00337 a saref:Sensor .
+
+ex:POD2-00338 a saref:Sensor .
+
+ex:POD2-00340 a saref:Sensor .
+
+ex:POD2-00814 a saref:Sensor .
+
+ex:POD2-00815 a saref:Sensor .
+
+<http://example.org/iot/office001#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office001 .
+
+<http://example.org/iot/office011#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office011 .
+
+<http://example.org/iot/office104#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office104 .
+
+<http://example.org/iot/office111#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+<http://example.org/iot/office113#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office113 .
+
+<http://example.org/iot/office116#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office116 .
+
+<http://example.org/iot/office121#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office121 .
+
+<http://example.org/iot/office123#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office123 .
+
+ex:roof saref:hasPropertyOfInterest <http://example.org/iot/roof#setpoint_temperature>,
+        <http://example.org/iot/roof#temperature> .
+
+<http://example.org/iot/roof#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:roof .
+
+ex:carbon_dioxide a saref:property .
+
+ex:office001 a saref:FeatureOfInterest .
+
+ex:office104 a saref:FeatureOfInterest .
+
+ex:office111 a saref:FeatureOfInterest .
+
+ex:office116 a saref:FeatureOfInterest .
+
+ex:office121 a saref:FeatureOfInterest .
+
+<http://example.org/iot/office001#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office001 .
+
+ex:office011 a saref:FeatureOfInterest .
+
+ex:office020 a saref:FeatureOfInterest .
+
+ex:office113 a saref:FeatureOfInterest .
+
+ex:office123 a saref:FeatureOfInterest .
+
+<http://example.org/iot/office020#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office020 .
+
+<http://example.org/iot/office020#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office020 .
+
+ex:humidity a saref:property .
+
+ex:pressure a saref:property .
+
+ex:setpoint_temperature a saref:property .
+
+ex:temperature a saref:property .
+

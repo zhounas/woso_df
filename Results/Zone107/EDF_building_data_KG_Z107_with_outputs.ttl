@@ -1,0 +1,200 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/iot/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix woso: <https://purl.org/woso/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:EDF_building_thermal_modelSimulation a woso:SimulationExecution ;
+    woso:hasOutput ex:P_heat_0013,
+        ex:T_air_0013 ;
+    woso:isExecutionOf ex:EDF_building_thermal_model ;
+    saref:hasInput ex:t_init_0013,
+        ex:t_sp_0013 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0013Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 0e+00 ;
+    woso:isValueOfVariable ex:P_heat_0013 .
+
+ex:EDF_building_thermal_modelSimulationP_heat_0013Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 3.980354e+02 ;
+    woso:isValueOfVariable ex:P_heat_0013 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0013Value a woso:VariableValue ;
+    woso:hasSimulationTime 0e+00 ;
+    woso:hasValue 2e+01 ;
+    woso:isValueOfVariable ex:T_air_0013 .
+
+ex:EDF_building_thermal_modelSimulationT_air_0013Value1 a woso:VariableValue ;
+    woso:hasSimulationTime 2e+02 ;
+    woso:hasValue 1.963053e+01 ;
+    woso:isValueOfVariable ex:T_air_0013 .
+
+ex:heatingPower a saref:property .
+
+ex:humidity_observation a saref:Observation ;
+    saref:hasResult ex:6102001000219HumidityValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000219 ;
+    saref:observes <http://example.org/iot/office111#humidity> .
+
+ex:pressure_observation a saref:Observation ;
+    saref:hasResult ex:6102001000219PressureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000219 ;
+    saref:observes <http://example.org/iot/office111#pressure> .
+
+ex:setpoint_temperature_observation a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1105Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1105 ;
+    saref:observes <http://example.org/iot/office111#setpoint_temperature> .
+
+ex:setpoint_temperature_observation_1 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1106Setpoint_temperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:28:49"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1106 ;
+    saref:observes <http://example.org/iot/office110#setpoint_temperature> .
+
+ex:t_init_0013Value24e4cf66-9bb1-400c-b421-2cca4c5afcdc woso:hasValue 2.116667e+01 ;
+    woso:isValueOfVariable ex:t_init_0013 .
+
+ex:t_sp_0013Valuecbed2b5f-db7a-4e48-8de9-ceeef847ed87 woso:hasValue 2.05e+01 ;
+    woso:isValueOfVariable ex:t_sp_0013 .
+
+ex:temperature_observation a saref:Observation ;
+    saref:hasResult ex:6102001000219TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:04:00"^^xsd:dateTime ;
+    saref:madeBy ex:6102001000219 ;
+    saref:observes <http://example.org/iot/office111#temperature> .
+
+ex:temperature_observation_1 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1105TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1105 ;
+    saref:observes <http://example.org/iot/office111#temperature> .
+
+ex:temperature_observation_2 a saref:Observation ;
+    saref:hasResult ex:xdppivjzy2wixy6s-l1106TemperatureValue ;
+    saref:hasTimestamp "2024-12-19T08:00:00"^^xsd:dateTime ;
+    saref:madeBy ex:xdppivjzy2wixy6s-l1106 ;
+    saref:observes <http://example.org/iot/office110#temperature> .
+
+ex:6102001000219HumidityValue a saref:PropertyValue ;
+    saref:hasValue 4.9e+01 ;
+    saref:isMeasuredIn unit:PERCENT_RH ;
+    saref:isValueOfProperty <http://example.org/iot/office111#humidity> .
+
+ex:6102001000219PressureValue a saref:PropertyValue ;
+    saref:hasValue 9.975625e+02 ;
+    saref:isMeasuredIn unit:HectoPA ;
+    saref:isValueOfProperty <http://example.org/iot/office111#pressure> .
+
+ex:6102001000219TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office111#temperature> .
+
+ex:EDF_building saref:consistsOf ex:zone107 .
+
+ex:EDF_building_thermal_model a woso:SimulationModel ;
+    woso: "FMU"^^xsd:string ;
+    woso:author "EDF R&D"^^xsd:string ;
+    woso:copyright " "^^xsd:string ;
+    woso:filePath "C:/Users/e93780/Documents/Python_Environments/K15_UseCase/Code/EDF_building_thermal_model.fmu"^^xsd:string ;
+    woso:formatVersion "2.0"^^xsd:string ;
+    woso:generationDateAndTime "2024-12-17T23:37:29+00:00"^^xsd:dateTime ;
+    woso:generationTool "Dymola Version 2023x Refresh 1, 2023-04-12 (requires license to execute)"^^xsd:string ;
+    woso:licence " "^^xsd:string ;
+    woso:models ex:EDF_building ;
+    woso:version "1"^^xsd:string .
+
+ex:humidity a saref:property .
+
+ex:pressure a saref:property .
+
+ex:xdppivjzy2wixy6s-l1105Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.2e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office111#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1105TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 2.18e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office111#temperature> .
+
+ex:xdppivjzy2wixy6s-l1106Setpoint_temperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.9e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office110#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1106TemperatureValue a saref:PropertyValue ;
+    saref:hasValue 1.97e+01 ;
+    saref:isMeasuredIn unit:DEG_C ;
+    saref:isValueOfProperty <http://example.org/iot/office110#temperature> .
+
+ex:zone107 a saref:FeatureOfInterest ;
+    saref:consistsOf ex:office110,
+        ex:office111 ;
+    saref:hasPropertyOfInterest <http://example.org/iot/zone107#setpoint_temperature>,
+        <http://example.org/iot/zone107#temperature> .
+
+<http://example.org/iot/office110#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office110 .
+
+<http://example.org/iot/office110#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office110 .
+
+<http://example.org/iot/office111#humidity> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:humidity ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+<http://example.org/iot/office111#pressure> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:pressure ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+<http://example.org/iot/office111#setpoint_temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:setpoint_temperature ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+ex:t_init_0013 a woso:SimulationVariable ;
+    rdfs:label "t_init_0013"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone107#temperature> .
+
+ex:t_sp_0013 a woso:SimulationVariable ;
+    rdfs:label "t_sp_0013"^^xsd:string ;
+    woso:isRelatedToPropertyOfInterest <http://example.org/iot/zone107#setpoint_temperature> .
+
+ex:xdppivjzy2wixy6s-l1105 a saref:Sensor .
+
+ex:xdppivjzy2wixy6s-l1106 a saref:Sensor .
+
+<http://example.org/iot/zone107#setpoint_temperature> saref:hasPropertyKind ex:setpoint_temperature .
+
+<http://example.org/iot/zone107#temperature> saref:hasPropertyKind ex:temperature .
+
+ex:6102001000219 a saref:Sensor .
+
+ex:P_heat_0013 a woso:SimulationVariable ;
+    rdfs:label "P_heat_0013"^^xsd:string .
+
+ex:T_air_0013 a woso:SimulationVariable ;
+    rdfs:label "T_air_0013"^^xsd:string .
+
+ex:office110 a saref:FeatureOfInterest .
+
+ex:setpoint_temperature a saref:property .
+
+ex:temperature a saref:property .
+
+<http://example.org/iot/office111#temperature> a saref:PropertyOfInterest ;
+    saref:hasPropertyKind ex:temperature ;
+    saref:isPropertyOfInterestOf ex:office111 .
+
+ex:office111 a saref:FeatureOfInterest .
+

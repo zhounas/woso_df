@@ -1,0 +1,7 @@
+ellonasoft_login = "******"
+ellonasoft_password = "******"
+ethera_company = "******"
+ethera_operator = "******"
+ethera_password = ""******""
+wattsense_api_key = ""******""
+wattsense_api_secret = ""******""

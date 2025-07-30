@@ -1,0 +1,20 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+INSERT { ?variableValue woso:isValueOfVariable ?variable ;  woso:hasValue ?value .}
+WHERE {
+{SELECT ?variable (avg(?values) AS ?value) (IRI(CONCAT(STR(?variable), "Value", STRUUID())) AS ?variableValue)
+    WHERE{
+        ?observation saref:observes ?propertyOfInterestIot;
+            saref:hasResult ?propertyValue.
+        ?propertyValue saref:isValueOfProperty ?propertyOfInterestIot;
+                       saref:hasValue ?values.
+        ?featureOfInterestSimulation saref:consistsOf ?featureOfInterestIot.
+        ?propertyOfInterestIot saref:isPropertyOfInterestOf ?featureOfInterestIot;
+                               saref:hasPropertyKind ?property.
+        ?featureOfInterestSimulation saref:hasPropertyOfInterest ?propertyOfInterestSimulation.
+        ?variable woso:isRelatedToPropertyOfInterest ?propertyOfInterestSimulation.
+        ?propertyOfInterestSimulation saref:hasPropertyKind ?property.
+       
+        }GROUP BY ?variable
+    }
+}

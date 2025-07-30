@@ -1,0 +1,42 @@
+simulation_data={
+    "simulationModels": {
+        "EDF_building_thermal_model": {
+            "FeatureOfInterest": "EDF_building",
+            "version": "1",
+            "format": "FMU",
+            "formatVersion": "2.0",
+            "author": "EDF R&D",
+            "filePath":"C:/Users/e93780/Documents/Python_Environments/K15_UseCase/Code/EDF_building_thermal_model.fmu",
+            "copyright": " ",
+            "licence": " ",
+            "generationTool": "Dymola Version 2023x Refresh 1, 2023-04-12 (requires license to execute)",
+            "generationDateAndTime": "2024-12-17T23:37:29Z",
+            "simulation": {
+                "0": {
+                    "simulationVariables": {
+                        "T_air_0013": {
+                            "type": "output",
+                            "location": "zone107",
+                            "property": "temperature"
+                        },
+                        "P_heat_0013": {
+                            "type": "output",
+                            "location": "zone107",
+                            "property": "heatingPower"
+                        },
+                        "t_sp_0013": {
+                            "type": "input",
+                            "location": "zone107",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_init_0013": {
+                            "type": "input",
+                            "location": "zone107",
+                            "property": "temperature"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

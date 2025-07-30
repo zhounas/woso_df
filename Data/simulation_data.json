@@ -1,0 +1,417 @@
+simulation_data={
+    "simulationModels": {
+        "EDF_building_thermal_model": {
+            "FeatureOfInterest": "EDF_building",
+            "version": "1",
+            "format": "FMU",
+            "formatVersion": "2.0",
+            "author": "EDF R&D",
+            "filePath":"C:/Users/e93780/Documents/Python_Environments/K15_UseCase/Code/EDF_building_thermal_model.fmu",
+            "copyright": " ",
+            "licence": " ",
+            "generationTool": "Dymola Version 2023x Refresh 1, 2023-04-12 (requires license to execute)",
+            "generationDateAndTime": "2024-12-17T23:37:29Z",
+            "simulation": {
+                "0": {
+                    "simulationVariables": {
+                        "T_air_0001": {
+                            "type": "output",
+                            "location": "roof",
+                            "property": "temperature"
+                        },
+                        "T_air_0002": {
+                            "type": "output",
+                            "location": "zone001",
+                            "property": "temperature"
+                        },
+                        "T_air_0003": {
+                            "type": "output",
+                            "location": "zone002",
+                            "property": "temperature"
+                        },
+                        "T_air_0004": {
+                            "type": "output",
+                            "location": "zone005",
+                            "property": "temperature"
+                        },
+                        "T_air_0005": {
+                            "type": "output",
+                            "location": "zone004",
+                            "property": "temperature"
+                        },
+                        "T_air_0006": {
+                            "type": "output",
+                            "location": "zone003",
+                            "property": "temperature"
+                        },
+                        "T_air_0007": {
+                            "type": "output",
+                            "location": "zone101",
+                            "property": "temperature"
+                        },
+                        "T_air_0008": {
+                            "type": "output",
+                            "location": "zone102",
+                            "property": "temperature"
+                        },
+                        "T_air_0009": {
+                            "type": "output",
+                            "location": "zone104",
+                            "property": "temperature"
+                        },
+                        "T_air_0010": {
+                            "type": "output",
+                            "location": "zone105",
+                            "property": "temperature"
+                        },
+                        "T_air_0011": {
+                            "type": "output",
+                            "location": "zone106",
+                            "property": "temperature"
+                        },
+                        "T_air_0012": {
+                            "type": "output",
+                            "location": "zone013",
+                            "property": "temperature"
+                        },
+                        "T_air_0013": {
+                            "type": "output",
+                            "location": "zone107",
+                            "property": "temperature"
+                        },
+                        "T_air_0014": {
+                            "type": "output",
+                            "location": "zone109",
+                            "property": "temperature"
+                        },
+                        "T_air_0015": {
+                            "type": "output",
+                            "location": "zone108",
+                            "property": "temperature"
+                        },
+                        "T_air_0016": {
+                            "type": "output",
+                            "location": "zone010",
+                            "property": "temperature"
+                        },
+                        "T_air_0017": {
+                            "type": "output",
+                            "location": "zone111",
+                            "property": "temperature"
+                        },
+                        "T_air_0018": {
+                            "type": "output",
+                            "location": "zone012",
+                            "property": "temperature"
+                        },
+                        "T_air_0019": {
+                            "type": "output",
+                            "location": "zone103",
+                            "property": "temperature"
+                        },
+                        "T_air_0020": {
+                            "type": "output",
+                            "location": "zone014",
+                            "property": "temperature"
+                        },
+                        "P_heat_0001": {
+                            "type": "output",
+                            "location": "roof",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0002": {
+                            "type": "output",
+                            "location": "zone001",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0003": {
+                            "type": "output",
+                            "location": "zone002",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0004": {
+                            "type": "output",
+                            "location": "zone005",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0005": {
+                            "type": "output",
+                            "location": "zone004",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0006": {
+                            "type": "output",
+                            "location": "zone003",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0007": {
+                            "type": "output",
+                            "location": "zone101",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0008": {
+                            "type": "output",
+                            "location": "zone102",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0009": {
+                            "type": "output",
+                            "location": "zone104",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0010": {
+                            "type": "output",
+                            "location": "zone105",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0011": {
+                            "type": "output",
+                            "location": "zone106",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0012": {
+                            "type": "output",
+                            "location": "zone013",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0013": {
+                            "type": "output",
+                            "location": "zone107",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0014": {
+                            "type": "output",
+                            "location": "zone109",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0015": {
+                            "type": "output",
+                            "location": "zone108",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0016": {
+                            "type": "output",
+                            "location": "zone010",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0017": {
+                            "type": "output",
+                            "location": "zone111",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0018": {
+                            "type": "output",
+                            "location": "zone012",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0019": {
+                            "type": "output",
+                            "location": "zone103",
+                            "property": "heatingPower"
+                        },
+                        "P_heat_0020": {
+                            "type": "output",
+                            "location": "zone014",
+                            "property": "heatingPower"
+                        },
+                        "t_sp_0001": {
+                            "type": "input",
+                            "location": "roof",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0002": {
+                            "type": "input",
+                            "location": "zone001",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0003": {
+                            "type": "input",
+                            "location": "zone002",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0004": {
+                            "type": "input",
+                            "location": "zone005",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0005": {
+                            "type": "input",
+                            "location": "zone004",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0006": {
+                            "type": "input",
+                            "location": "zone003",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0007": {
+                            "type": "input",
+                            "location": "zone101",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0008": {
+                            "type": "input",
+                            "location": "zone102",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0009": {
+                            "type": "input",
+                            "location": "zone104",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0010": {
+                            "type": "input",
+                            "location": "zone105",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0011": {
+                            "type": "input",
+                            "location": "zone106",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0012": {
+                            "type": "input",
+                            "location": "zone013",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0013": {
+                            "type": "input",
+                            "location": "zone107",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0014": {
+                            "type": "input",
+                            "location": "zone109",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0015": {
+                            "type": "input",
+                            "location": "zone010",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0017": {
+                            "type": "input",
+                            "location": "zone111",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0018": {
+                            "type": "input",
+                            "location": "zone012",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0019": {
+                            "type": "input",
+                            "location": "zone103",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_sp_0020": {
+                            "type": "input",
+                            "location": "zone014",
+                            "property": "setpoint_temperature"
+                        },
+                        "t_init_0001": {
+                            "type": "input",
+                            "location": "roof",
+                            "property": "temperature"
+                        },
+                        "t_init_0002": {
+                            "type": "input",
+                            "location": "zone001",
+                            "property": "temperature"
+                        },
+                        "t_init_0003": {
+                            "type": "input",
+                            "location": "zone002",
+                            "property": "temperature"
+                        },
+                        "t_init_0004": {
+                            "type": "input",
+                            "location": "zone005",
+                            "property": "temperature"
+                        },
+                        "t_init_0005": {
+                            "type": "input",
+                            "location": "zone004",
+                            "property": "temperature"
+                        },
+                        "t_init_0006": {
+                            "type": "input",
+                            "location": "zone003",
+                            "property": "temperature"
+                        },
+                        "t_init_0007": {
+                            "type": "input",
+                            "location": "zone101",
+                            "property": "temperature"
+                        },
+                        "t_init_0008": {
+                            "type": "input",
+                            "location": "zone102",
+                            "property": "temperature"
+                        },
+                        "t_init_0009": {
+                            "type": "input",
+                            "location": "zone104",
+                            "property": "temperature"
+                        },
+                        "t_init_0010": {
+                            "type": "input",
+                            "location": "zone105",
+                            "property": "temperature"
+                        },
+                        "t_init_0011": {
+                            "type": "input",
+                            "location": "zone106",
+                            "property": "temperature"
+                        },
+                        "t_init_0012": {
+                            "type": "input",
+                            "location": "zone013",
+                            "property": "temperature"
+                        },
+                        "t_init_0013": {
+                            "type": "input",
+                            "location": "zone107",
+                            "property": "temperature"
+                        },
+                        "t_init_0014": {
+                            "type": "input",
+                            "location": "zone109",
+                            "property": "temperature"
+                        },
+                        "t_init_0015": {
+                            "type": "input",
+                            "location": "zone108",
+                            "property": "temperature"
+                        },
+                        "t_init_0016": {
+                            "type": "input",
+                            "location": "zone010",
+                            "property": "temperature"
+                        },
+                        "t_init_0017": {
+                            "type": "input",
+                            "location": "zone111",
+                            "property": "temperature"
+                        },
+                        "t_init_0018": {
+                            "type": "input",
+                            "location": "zone012",
+                            "property": "temperature"
+                        },
+                        "t_init_0019": {
+                            "type": "input",
+                            "location": "zone103",
+                            "property": "temperature"
+                        },
+                        "t_init_0020": {
+                            "type": "input",
+                            "location": "zone014",
+                            "property": "temperature"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

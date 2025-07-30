@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>FMU Simulation Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 2rem; background-color: #f9f9f9; }
+        label { display: block; margin-top: 1rem; font-weight: bold; }
+        input, textarea, select, button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 1.5rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .response {
+            margin-top: 2rem;
+            white-space: pre-wrap;
+            background: #eee;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>FMU Simulation Form</h1>
+    <form id="simulateForm">
+        <label>FMU Path: <input type="text" name="fmu_path" value="model.fmu" required></label><br>
+        <label>Start Time: <input type="number" step="any" name="start_time" value="0.0"></label><br>
+        <label>Stop Time: <input type="number" step="any" name="stop_time" value="10.0" ></label><br>
+        <label>Step Size: <input type="number" step="any" name="step_size"></label><br>
+        <label>Output Interval: <input type="number" step="any" name="output_interval"></label><br>
+        <label>FMI Type:
+            <select name="fmi_type">
+                <option value="ModelExchange">ModelExchange</option>
+                <option value="CoSimulation">CoSimulation</option>
+            </select>
+        </label><br><br>
+
+        <label>Start Values (JSON):<br>
+            <textarea name="start_values" rows="4" cols="50"></textarea>
+        </label><br>
+        <label>Input Array (JSON):<br>
+            <textarea name="input_array" rows="4" cols="50"></textarea>
+        </label><br>
+
+        <button type="submit">Run Simulation</button>
+    </form>
+
+    <pre id="result"></pre>
+
+    <script>
+        const form = document.getElementById('simulateForm');
+        const resultBox = document.getElementById('result');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData(form);
+            const data = {};
+
+            for (const [key, value] of formData.entries()) {
+                // Parse JSON fields, others as string/number
+                if (key === "start_values" || key === "input_array") {
+                    try {
+                        data[key] = JSON.parse(value || '{}');
+                    } catch {
+                        resultBox.textContent = `Invalid JSON in ${key}`;
+                        return;
+                    }
+                } else if (value === '') {
+                    // Skip empty optional values
+                    continue;
+                } else if (!isNaN(value) && value.trim() !== '') {
+                    // Convert numeric fields to numbers
+                    data[key] = Number(value);
+                } else {
+                    data[key] = value;
+                }
+            }
+
+            try {
+                const response = await fetch('/simulate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await response.json();
+                resultBox.textContent = JSON.stringify(result, null, 2);
+            } catch (err) {
+                resultBox.textContent = "Error: " + err.message;
+            }
+        });
+    </script>
+</body>
+</html>
